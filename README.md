@@ -6,6 +6,7 @@
 - `label` -> name of file
 - `isMultiple` -> if you use `isMultiple: true`, it can upload multiple files.
 - `isNotRequire` -> if you use `isNotRequire: true`, it can be empty.
+- `change`(function) -> you can do something when file is uploaded. `1st` argument is this component value.
 
 ## Example
 
