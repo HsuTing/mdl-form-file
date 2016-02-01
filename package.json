@@ -1,6 +1,6 @@
 {
   "name": "mdl-form-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "file for mdl-form",
   "main": "./lib/index.jsx",
   "scripts": {
