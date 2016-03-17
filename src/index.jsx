@@ -39,6 +39,7 @@ export default class file extends React.Component {
               cursor: "pointer"
           }}>
            <div
+             className="files"
              style={{
               display: "flex",
               flexDirection: "column",
