@@ -18,7 +18,10 @@ export default class file extends React.Component {
     }
 
     return (
-      <div ref="component" className="file mdl-card mdl-shadow--2dp" style={data.style}>
+      <div ref="component"
+           className={data.className === undefined ? "file mdl-card mdl-shadow--2dp" : data.className}
+           style={data.style}
+      >
         <div className="mdl-card__supporting-text" style={{
           height: "100%"
         }}>
@@ -36,11 +39,15 @@ export default class file extends React.Component {
               cursor: "pointer"
           }}>
            <div
-             className="files"
              style={{
               display: "flex",
               flexDirection: "column",
-              justifyContent: "center"
+              justifyContent: "center",
+              width: "inherit",
+              height: "100px",
+              minHeight: "0px",
+              marginTop: "20px",
+              marginBottom: "20px"
             }}>
               {data.label}
             </div>
